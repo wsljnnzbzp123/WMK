@@ -1,0 +1,42 @@
+<view>
+
+  <view class='head'>
+    <text class='lit'>{{data}}</text>
+    <text class='big'>{{reveal}}</text>
+  </view>
+
+  <view class='content'>
+    <view class='table'>
+      <view class='tr'>
+        <view class='th' id='CE' bindtap='click' style='background-color:  #F0F0F0;'>CE</view>
+        <view class='th' id='C' bindtap='click' style='background-color:  #F0F0F0;'>C</view>
+        <view class='th' id='《--' bindtap='click' style='background-color:  #F0F0F0;'>《--</view>
+        <view class='th' id='÷' bindtap='click' style='background-color:  #F0F0F0;'>÷</view>
+      </view>
+      <view class='tr'>
+        <view class='th' id='7' bindtap='click'>7</view>
+        <view class='th' id='8' bindtap='click'>8</view>
+        <view class='th' id='9' bindtap='click'>9</view>
+        <view class='th' id='×' bindtap='click' style='background-color:  #F0F0F0;'>×</view>
+      </view>
+      <view class='tr'>
+        <view class='th' id='4' bindtap='click'>4</view>
+        <view class='th' id='5' bindtap='click'>5</view>
+        <view class='th' id='6' bindtap='click'>6</view>
+        <view class='th' id='-' bindtap='click' style='background-color:  #F0F0F0;'>-</view>
+      </view>
+      <view class='tr'>
+        <view class='th' id='1' bindtap='click'>1</view>
+        <view class='th' id='2' bindtap='click'>2</view>
+        <view class='th' id='3' bindtap='click'>3</view>
+        <view class='th' id='+' bindtap='click' style='background-color:  #F0F0F0;'>+</view>
+      </view>
+      <view class='tr'>
+        <view class='th-zero' id='0' bindtap='click'>0</view>
+        <view class='th' id='.' bindtap='click' style='background-color:  #F0F0F0;'>.</view>
+        <view class='th' id='=' bindtap='click' style='background-color:  #F0F0F0;'>=</view>
+      </view>
+    </view>
+  </view>
+
+</view>
